@@ -34,7 +34,6 @@ public class ProdController {
 		mav.addObject("prods", new Product());
 		mav.setViewName("save");
 		return mav;
-		int i = 100;
 	}
 	
 	@PostMapping("/insert")
